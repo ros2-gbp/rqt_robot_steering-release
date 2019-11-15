@@ -1,0 +1,12 @@
+Source: ros-dashing-rqt-robot-steering
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/rqt_robot_steering
+Standards-Version: 3.9.2
+
+Package: ros-dashing-rqt-robot-steering
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-dashing-ament-index-python, ros-dashing-geometry-msgs, ros-dashing-python-qt-binding (>= 0.2.19), ros-dashing-rclpy, ros-dashing-rqt-gui, ros-dashing-rqt-gui-py, ros-dashing-ros-workspace
+Description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.
