@@ -1,1 +1,1 @@
-{"base": "56c3155", "parent": "debian/rolling/rqt_robot_steering", "previous": "01d5f9d", "trim": "", "trimbase": ""}
+{"base": "347f49d", "parent": "debian/humble/rqt_robot_steering", "previous": "b3072e2", "trim": "", "trimbase": ""}
