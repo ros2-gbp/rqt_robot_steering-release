@@ -1,3 +1,26 @@
+## rqt_robot_steering (rolling) - 1.0.2-1
+
+The packages in the `rqt_robot_steering` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rqt_robot_steering` on `Mon, 07 Jul 2025 07:36:01 -0000`
+
+The `rqt_robot_steering` package was released.
+
+Version of package(s) in repository `rqt_robot_steering`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_robot_steering.git
+- release repository: https://github.com/ros2-gbp/rqt_robot_steering-release.git
+- rosdistro version: `1.0.1-2`
+- old version: `1.0.1-2`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_robot_steering (jazzy) - 1.0.1-2
 
 The packages in the `rqt_robot_steering` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy rqt_robot_steering` on `Fri, 21 Mar 2025 14:21:52 -0000`
