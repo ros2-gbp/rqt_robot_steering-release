@@ -3,7 +3,7 @@ from setuptools import setup
 package_name = 'rqt_robot_steering'
 setup(
     name=package_name,
-    version='1.0.2',
+    version='3.0.0',
     package_dir={'': 'src'},
     packages=[package_name],
     data_files=[
@@ -12,7 +12,6 @@ setup(
         ('share/' + package_name + '/resource', ['resource/RobotSteering.ui']),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name, ['plugin.xml']),
-        ('lib/' + package_name, ['scripts/rqt_robot_steering'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -30,5 +29,9 @@ setup(
         'rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.'
     ),
     license='BSD',
-    scripts=['scripts/rqt_robot_steering'],
+    entry_points={
+        'console_scripts': [
+            'rqt_robot_steering = ' + package_name + '.main:main',
+            ],
+    },
 )
