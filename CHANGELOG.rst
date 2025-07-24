@@ -2,7 +2,7 @@
 Changelog for package rqt_robot_steering
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.0 (2025-07-24)
+3.0.0 (2025-07-24)
 ------------------
 * Use console_script entrypoint (`#12 <https://github.com/ros-visualization/rqt_robot_steering/issues/12>`_)
   use console_script entrypoint. resolves inability to run in windows.
