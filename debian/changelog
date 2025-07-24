@@ -1,0 +1,268 @@
+ros-kilted-rqt-robot-steering (3.0.0-1noble) noble; urgency=high
+
+  * Use console_script entrypoint (#12 <https://github.com/ros-visualization/rqt_robot_steering/issues/12>)
+    use console_script entrypoint. resolves inability to run in windows.
+  * Contributors: Melvin Wang
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 23 Jul 2025 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (1.0.2-1noble) noble; urgency=high
+
+  * Fixed bugs after adding TwistStamped publishing (simplified) (#23 <https://github.com/ros-visualization/rqt_robot_steering/issues/23>)
+  * Contributors: Patrik Knaperek
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 06 Jul 2025 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (1.0.1-1noble) noble; urgency=high
+
+  * Publish TwistStamped message optionally (#18 <https://github.com/ros-visualization/rqt_robot_steering/issues/18>)
+  * remove obsolete CMakeLists.txt
+  * Contributors: Christoph Fröhlich, Dirk Thomas
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Mar 2025 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (1.0.0-1noble) noble; urgency=high
+
+  * port package to ROS 2 (#7 <https://github.com/ros-visualization/rqt_robot_steering/issues/7>)
+  * minor cleanup (#6 <https://github.com/ros-visualization/rqt_robot_steering/issues/6>)
+  * add Python 3 conditional dependencies (#5 <https://github.com/ros-visualization/rqt_robot_steering/issues/5>)
+  * style: format code to conform to the PEP8 style (#3 <https://github.com/ros-visualization/rqt_robot_steering/issues/3>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 14 Nov 2019 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.9-1noble) noble; urgency=high
+
+  * always send zero twist when stop button is pressed (#2 <https://github.com/ros-visualization/rqt_robot_steering/issues/2>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 20 Feb 2018 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.8-1noble) noble; urgency=high
+
+  * handle an empty topic string (#1 <https://github.com/ros-visualization/rqt_robot_steering/issues/1>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 11 Oct 2017 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.7-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 24 Apr 2017 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.6-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 23 Jan 2017 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.5-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 01 Nov 2016 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.4-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 18 Sep 2016 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.3-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 15 May 2016 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.2-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 28 Apr 2016 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.1-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 27 Apr 2016 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.5.0-1noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#101 <https://github.com/ros-visualization/rqt_robot_plugins/pull/101>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 26 Apr 2016 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.4.3-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 07 Mar 2016 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.4.2-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 23 Jul 2015 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.4.1-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 29 Apr 2015 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.4.0-1noble) noble; urgency=high
+
+  * update script to use full plugin name
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 04 Nov 2014 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.7-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 17 Aug 2014 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.6-1noble) noble; urgency=high
+
+  * fix compatibility with Groovy, use queue_size for Python publishers only when available (#67 <https://github.com/ros-visualization/rqt_robot_plugins/pull/67>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Jul 2014 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.5-1noble) noble; urgency=high
+
+  * use queue_size for Python publishers
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 01 Jun 2014 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.4-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 06 May 2014 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.3-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 27 Jan 2014 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.2-1noble) noble; urgency=high
+
+  * add groups for rqt plugins (ros-visualization/rqt_common_plugins#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 07 Jan 2014 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.1-1noble) noble; urgency=high
+
+  * send zero-value cmd_vel messages only once (#53 <https://github.com/ros-visualization/rqt_robot_plugins/pull/53>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 08 Oct 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.3.0-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 27 Aug 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.16-1noble) noble; urgency=high
+
+  * First public release into Hydro
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 08 Jul 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.15-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 24 Apr 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.14-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 11 Apr 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.13-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 08 Apr 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.12-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 06 Apr 2013 16:22:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.11-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 06 Apr 2013 16:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.10-1noble) noble; urgency=high
+
+  * Added ability to load default values from ROS parameters. Removed undesired echo @dawonn
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 03 Apr 2013 22:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.9-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 06 Mar 2013 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.8-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Jan 2013 23:00:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.7-1noble) noble; urgency=high
+
+  * pimp robot steering plugin
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Dec 2012 14:58:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.6-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 23 Dec 2012 00:57:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 18:11:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.4-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 00:13:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.3-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 23:24:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 17:29:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 16:47:00 -0000
+
+ros-kilted-rqt-robot-steering (0.2.0-1noble) noble; urgency=high
+
+  * catkinizing
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 20 Dec 2012 16:39:00 -0000
+
+
